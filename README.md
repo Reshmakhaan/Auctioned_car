@@ -44,3 +44,13 @@ This project solves a real-world classification problem where dealerships want t
 git clone https://github.com/thoufiqz55/Auctioned_car.git
 cd Auctioned_car
 pip install -r requirements.txt
+
+---
+🧪 Usage
+Download the dataset from Kaggle and place it in the DontGetKicked/ directory.
+
+Open Used_cars_classification.ipynb in Jupyter or Google Colab.
+
+Run all cells to explore EDA, training, and results.
+
+
