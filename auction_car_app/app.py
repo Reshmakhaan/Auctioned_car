@@ -3,7 +3,9 @@ import pandas as pd
 import pickle
 
 # Load model
-model = pickle.load(open('model.pkl', 'rb'))
+import os
+model = pickle.load(open(os.path.join(os.path.dirname(__file__), 'model.pkl'), 'rb'))
+
 
 st.title("🚗 Auctioned Car Risk Predictor")
 st.markdown("Predict if the car is a **bad buy** at an auction.")
